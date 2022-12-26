@@ -1,0 +1,3 @@
+# just to annoy everyone with smugness...
+[exec ('global '+e[0][:-1]+'\ndef '+e[0][:-1]+'():return '+(e[1] if len(e)==2 else e[1]+'()'+e[2]+e[3]+'()')) for e in [l.split() for l in open('input.txt')]]
+print("Part 1: {:.0f}".format(root()))
